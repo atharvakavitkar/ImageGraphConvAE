@@ -1,0 +1,17 @@
+project: "Circuit Autoencoder"
+
+dataset_dir: ""
+output_dir: ""
+checkpoint_dir: ""
+load_checkpoint: ""
+
+batch_size: 50
+img_size: 255
+log_interval: 10
+num_workers: 48
+num_epochs: 501
+train_percent: 80
+latent_dims: 2250
+num_channels: 64
+learning_rate: 1.0e-04
+
